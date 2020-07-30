@@ -1,0 +1,10 @@
+//换门放混合，用@mixin创建，用@include调用
+//清除浮动
+@mixin clearBoth{
+    content: "";
+    height: 0;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+}
